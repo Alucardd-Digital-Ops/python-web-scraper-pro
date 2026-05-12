@@ -1,22 +1,24 @@
 # 🌍 Python Web Scraper Pro - Países
 
-Este es un script profesional desarrollado en Python para extraer datos actualizados de países de forma automatizada. 
+Sistema profesional de extracción de datos automatizado, diseñado para recopilar información geográfica y política de manera eficiente.
 
-## 🚀 Funcionalidades
-* **Extracción de datos:** Scrapeo automático de información geográfica y política.
-* **Exportación:** Generación de archivos `.csv` listos para análisis de datos.
-* **Entorno Seguro:** Configurado para correr en Linux (Ubuntu).
+## 🚀 Valor de Negocio
+Este proyecto elimina la recolección manual de datos, ahorrando horas de trabajo operativo mediante una infraestructura de **automatización real**.
 
-## 🛠️ Tecnologías utilizadas
-* **Python 3**
-* **Bibliotecas:** (Aquí puedes poner las que usaste, ej. BeautifulSoup, Requests)
-* **Git & GitHub:** Para control de versiones.
+## 🛠️ Tecnologías Utilizadas
+* **Python 3.12+**: Procesamiento de lógica y datos.
+* **BeautifulSoup4 & Requests**: Extracción precisa de HTML y manejo de peticiones.
+* **Ubuntu Crontab**: Ejecución programada 24/7 sin intervención humana.
+* **Git & GitHub**: Control de versiones profesional.
+
+## 🤖 Automatización y Despliegue
+El sistema está configurado en un entorno **Linux (Ubuntu)** mediante tareas Cron. Esto garantiza que los reportes en `.csv` se actualicen automáticamente cada mañana.
 
 ## 📦 Instalación y Uso
-1. Clona el repositorio.
-2. Crea tu entorno virtual: `python3 -m venv venv`.
-3. Activa el entorno: `source venv/bin/activate`.
-4. Ejecuta el script: `python scraper_paises.py`.
+1. **Clonar**: `git clone https://github.com/Alucardd-Digital-Ops/python-web-scraper-pro.git`
+2. **Entorno Virtual**: `python3 -m venv venv`
+3. **Dependencias**: `pip install -r requeriments.txt`
+4. **Ejecutar**: `python scraper_paises.py`
 
 ---
-Desarrollado por [Alucardd-Digital-Ops](https://github.com/Alucardd-Digital-Ops)
+Desarrollado por **Alucardd-Digital-Ops**.
